@@ -1,0 +1,21 @@
+Here are the enhancement list.
+
+For Daily Cash Model
+
+a.            Parent Bank Account (Dim_LiquidityBankAccount)
+                - Concatenated Neptune composite 
+
+b.            DistributableCashFlowUSD (Distributable Cash in USD)
+                - Measure in Fact Table (FACT_Liquidity_FutureCashBal_Snapshot)
+
+c.             ProjectionAmountUSD (Projection Amount In USD)
+                - Measure in Fact Table (FACT_Liquidity_FutureCashBal_Snapshot)
+
+For Wire Model
+
+d.            FinalBeneficiaryAmountLocal (Receiving Wire in Local)
+                - Measure in Fact Table (FACT_Liquidity_Wire_Snapshot)
+
+e.            OriginatingAmountLocal (Originating Wire in Local)
+                - Measure in Fact Table (FACT_Liquidity_Wire_Snapshot)
+
